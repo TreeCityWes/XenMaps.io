@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XenMaps: The First Inscription Project</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>Xenmaps.io</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://github.com/TreeCityWes/XenMaps.io/blob/main/favicon.png?raw=true"/>
+
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Xenmaps.io: Explore our project and join the community.">
+    <meta name="keywords" content="XenMaps, Cryptocurrency, Blockchain, Inscription, XenBlocks">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xenmaps.io/">
+    <meta property="og:title" content="Xenmaps.io">
+    <meta property="og:description" content="Xenmaps.io: Explore our project and join the community.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://xenmaps.io/">
+    <meta property="twitter:title" content="Xenmaps.io">
+    <meta property="twitter:description" content="Xenmaps.io: Explore our project and join the community.">
+
+    <!-- Google Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
     <style>
         body, html {
             height: 100%;
             margin: 0;
-            overflow: hidden;
-            background-color: black;
-            font-family: 'Roboto', sans-serif;
+            overflow: hidden; /* Hide scrollbars */
+            background-color: black; /* Explicitly set background to black */
+            font-family: 'Roboto', sans-serif; /* Use Roboto font */
         }
 
         .content {
@@ -20,8 +42,8 @@
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
-            color: #F5F5F5;
-            z-index: 2;
+            color: #F5F5F5; /* Off-white color for text */
+            z-index: 2; /* Ensure text is above the canvas */
         }
 
         canvas {
@@ -34,13 +56,13 @@
         }
 
         .textbox {
-            background: #000000;
+            background: #000000; /* Fully opaque black background */
             border: 1px solid #F5F5F5;
             padding: 20px;
         }
 
         a {
-            color: #00FF00;
+            color: #00FF00; /* Lime green color for links */
             text-decoration: none;
         }
 
